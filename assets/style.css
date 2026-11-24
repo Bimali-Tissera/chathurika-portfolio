@@ -94,6 +94,7 @@ a { color: inherit; text-decoration: none; }
   color: #323030;
   padding-top: 100px;
   padding-bottom: 10px;
+  text-align: center;
 }
 .section-heading.name-heading {
   font-size: 25px;
@@ -108,6 +109,7 @@ a { color: inherit; text-decoration: none; }
   color: #323030;
   line-height: 22px;
   margin-bottom: 16px;
+  text-align: center;
 }
 .body-text-lg {
   font-size: 18px;
@@ -144,6 +146,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 16px;
   color: #323030;
   margin-top: 10px;
+  text-align: center;
 }
 .caption .title { line-height: 20px; }
 .caption .dimensions { line-height: 12px; }
@@ -177,6 +180,7 @@ a { color: inherit; text-decoration: none; }
   color: #323030;
   line-height: 115%;
   padding: 20px 0;
+  text-align: center;
 }
 
 /* ---- Sub-section Headers ---- */
@@ -187,6 +191,7 @@ a { color: inherit; text-decoration: none; }
   color: #323030;
   padding-top: 40px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 /* ---- Contact Section ---- */
