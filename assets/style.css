@@ -324,8 +324,10 @@ a { color: inherit; text-decoration: none; }
   .tree-child .image-module,
   .tree-child .image-module.w-90,
   .tree-child .image-module.w-70 { width: 100%; }
-  .pt-70, .pt-60, .pt-80 { padding-top: 40px; }
+  .pt-20, .pt-37, .pt-40, .pt-60, .pt-70, .pt-80 { padding-top: 40px; }
   .pt-100 { padding-top: 50px; }
+  .caption + .image-module,
+  .caption + .tree-row { margin-top: 40px; }
   .contact-photo { max-width: 80%; }
 }
 
