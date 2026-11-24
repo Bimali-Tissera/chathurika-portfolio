@@ -1,0 +1,23 @@
+Migrate the Adobe Portfolio site https://chathurikajayani.myportfolio.com/ to a static
+site hosted on GitHub Pages. Keep the layout, text, images and styling as close to the
+original as possible.
+
+Steps:
+1. Write a small script (Node or Python) to crawl the site: the home page plus every
+   internal page linked from the nav (including "Other Works" → Flag Work, Pillow Works,
+   and Contact). Save the raw HTML of each page to /_source for reference.
+2. Download every image at its highest resolution. Adobe Portfolio lazy-loads images, so
+   check data-src / srcset attributes and pick the largest version. Save them to
+   /assets/images with readable filenames (series-name-01.jpg etc.).
+3. Pull out the fonts, colours, spacing and grid layout from the original CSS. If a font
+   is an Adobe Typekit font, swap in the closest Google Font and tell me which one you chose.
+4. Rebuild it as plain HTML/CSS with minimal vanilla JS (no framework, no build step).
+   Use one shared stylesheet, a responsive mobile layout, lazy-loaded images, and a
+   lightbox if the original has one. Keep every title, year, medium and dimension caption
+   exactly as written.
+5. Compress the images (keep them high quality, max 2400px on the long edge).
+6. Serve it locally and compare each page with the original. Fix any visual differences.
+7. Create a public GitHub repo called chathurika-portfolio with `gh`, push, turn on
+   GitHub Pages from the main branch, and give me the live URL.
+
+Don't stop to ask questions. Make sensible decisions and list them at the end.
