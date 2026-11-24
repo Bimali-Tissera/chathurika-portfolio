@@ -148,9 +148,9 @@ a { color: inherit; text-decoration: none; }
   margin-top: 10px;
   text-align: center;
 }
-.caption .title { line-height: 20px; }
-.caption .dimensions { line-height: 12px; }
-.caption .medium { line-height: 12px; }
+.caption .title { line-height: 28px; }
+.caption .dimensions { line-height: 24px; }
+.caption .medium { line-height: 24px; }
 
 /* ---- Tree / Side-by-Side Layout ---- */
 .tree-row {
