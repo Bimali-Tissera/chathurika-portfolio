@@ -41,7 +41,7 @@ a { color: inherit; text-decoration: none; }
 .masthead-bg {
   position: absolute;
   inset: 0;
-  background: url('../images/contact-photo-01.jpg') center/cover no-repeat;
+  background: url('../images/masthead-bg.jpg') center/cover no-repeat;
   z-index: 0;
 }
 .masthead-content {
